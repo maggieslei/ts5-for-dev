@@ -1,0 +1,11 @@
+declare let firstName: string;
+declare const lastName = "Doe";
+declare let isAdmin: boolean;
+declare let number: number;
+declare let duties: string[];
+declare let car: any;
+declare let bike: any;
+declare let work: () => void;
+declare let salary: bigint;
+declare let logo: symbol;
+declare let all: (string | number | bigint | boolean | symbol | string[] | (() => void) | null | undefined)[];
